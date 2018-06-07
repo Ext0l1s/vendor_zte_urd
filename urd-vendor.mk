@@ -150,8 +150,8 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/urd/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
 	vendor/zte/urd/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
 	vendor/zte/urd/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-#	vendor/zte/urd/proprietary/vendor/lib/libTimeService.so
-#	vendor/zte/urd/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+	vendor/zte/urd/proprietary/vendor/lib/libTimeService.so
+	vendor/zte/urd/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
 	vendor/zte/urd/proprietary/vendor/lib/libZEffectLib.so:system/vendor/lib/libZEffectLib.so \
 	vendor/zte/urd/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
 	vendor/zte/urd/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
@@ -231,7 +231,7 @@ PRODUCT_COPY_FILES += \
 #	vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e2_snapshot.so
 #	vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e2_zsl_preview.so
 #	vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e2_zsl_video.so
-#	vendor/zte/urd/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+	vendor/zte/urd/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
 	vendor/zte/urd/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
 	vendor/zte/urd/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
 	vendor/zte/urd/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
@@ -247,8 +247,8 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/urd/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-#	vendor/zte/urd/proprietary/vendor/lib/libmm-disp-apis.so
-#	vendor/zte/urd/proprietary/vendor/lib/libmm-dspp-utils.so:system/vendor/lib/libmm-dspp-utils.so \
+	vendor/zte/urd/proprietary/vendor/lib/libmm-disp-apis.so
+	vendor/zte/urd/proprietary/vendor/lib/libmm-dspp-utils.so:system/vendor/lib/libmm-dspp-utils.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmm-qdcm-diag.so:system/vendor/lib/libmm-qdcm-diag.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -310,11 +310,12 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/urd/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
+	vendor/zte/urd/proprietary/vendor/lib/libmmcamera_imx258.so:system/vendor/lib/libmmcamera_imx258.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmmcamera_qtech_gt24c64a_eeprom.so:system/vendor/lib/libmmcamera_qtech_gt24c64a_eeprom.so \
-	vendor/zte/urd/proprietary/vendor/lib/libmmcamera_s5k3p3.so:system/vendor/lib/libmmcamera_s5k3p3.so \
+	vendor/zte/urd/proprietary/vendor/lib/libmmcamera_s5k5e2.so:system/vendor/lib/libmmcamera_s5k5e2.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
@@ -344,8 +345,8 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/urd/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
 	vendor/zte/urd/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
 	vendor/zte/urd/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-#	vendor/zte/urd/proprietary/vendor/lib/libtime_genoff.so
-#	vendor/zte/urd/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+	vendor/zte/urd/proprietary/vendor/lib/libtime_genoff.so
+	vendor/zte/urd/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/zte/urd/proprietary/vendor/lib/soundfx/libhwdap.so:system/vendor/lib/soundfx/libhwdap.so \
 	vendor/zte/urd/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
 	vendor/zte/urd/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
@@ -365,8 +366,8 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/urd/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
-#	vendor/zte/urd/proprietary/vendor/lib64/libTimeService.so
-#	vendor/zte/urd/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
+	vendor/zte/urd/proprietary/vendor/lib64/libTimeService.so
+	vendor/zte/urd/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
@@ -400,8 +401,8 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/urd/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
-#	vendor/zte/urd/proprietary/vendor/lib64/libmm-disp-apis.so
-#	vendor/zte/urd/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
+	vendor/zte/urd/proprietary/vendor/lib64/libmm-disp-apis.so
+	vendor/zte/urd/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
@@ -430,8 +431,8 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/urd/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-#	vendor/zte/urd/proprietary/vendor/lib64/libtime_genoff.so
-#	vendor/zte/urd/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+	vendor/zte/urd/proprietary/vendor/lib64/libtime_genoff.so
+	vendor/zte/urd/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
 	vendor/zte/urd/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
