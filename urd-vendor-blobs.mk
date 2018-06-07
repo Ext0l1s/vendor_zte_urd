@@ -367,7 +367,7 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/urd/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libTimeService.so
-	vendor/zte/urd/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
+	#vendor/zte/urd/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
