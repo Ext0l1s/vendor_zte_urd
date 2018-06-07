@@ -1,6 +1,6 @@
 PRODUCT_PACKAGES += \
     libtfa9890 \
-    libTimeService \
+#    libTimeService \
     libmm-disp-apis \
     libtime_genoff \
     TimeService \
