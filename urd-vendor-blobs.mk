@@ -248,7 +248,7 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/urd/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmm-disp-apis.so
-	vendor/zte/urd/proprietary/vendor/lib/libmm-dspp-utils.so:system/vendor/lib/libmm-dspp-utils.so \
+	#vendor/zte/urd/proprietary/vendor/lib/libmm-dspp-utils.so:system/vendor/lib/libmm-dspp-utils.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmm-qdcm-diag.so:system/vendor/lib/libmm-qdcm-diag.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
 	vendor/zte/urd/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
