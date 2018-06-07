@@ -432,7 +432,7 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/urd/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libtime_genoff.so
-	vendor/zte/urd/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
+	#vendor/zte/urd/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
 	vendor/zte/urd/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
