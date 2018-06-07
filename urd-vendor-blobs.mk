@@ -151,7 +151,7 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/urd/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
 	vendor/zte/urd/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
 	vendor/zte/urd/proprietary/vendor/lib/libTimeService.so
-	vendor/zte/urd/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+	#vendor/zte/urd/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
 	vendor/zte/urd/proprietary/vendor/lib/libZEffectLib.so:system/vendor/lib/libZEffectLib.so \
 	vendor/zte/urd/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
 	vendor/zte/urd/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
