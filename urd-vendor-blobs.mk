@@ -402,7 +402,7 @@ PRODUCT_COPY_FILES += \
 	vendor/zte/urd/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libmm-disp-apis.so
-	vendor/zte/urd/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
+	#vendor/zte/urd/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libmm-qdcm-diag.so:system/vendor/lib64/libmm-qdcm-diag.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libmm-qdcm.so:system/vendor/lib64/libmm-qdcm.so \
 	vendor/zte/urd/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
