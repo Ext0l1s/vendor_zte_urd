@@ -231,7 +231,7 @@ PRODUCT_COPY_FILES += \
 #	vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e2_snapshot.so
 #	vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e2_zsl_preview.so
 #	vendor/zte/urd/proprietary/vendor/lib/libchromatix_s5k5e2_zsl_video.so
-	vendor/zte/urd/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+	#vendor/zte/urd/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
 	vendor/zte/urd/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
 	vendor/zte/urd/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
 	vendor/zte/urd/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
